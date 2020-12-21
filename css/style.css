@@ -2,7 +2,9 @@
 
 /*스킵 내비게이션*/
 #skip {}
-#skip a {position: absolute; left: 0; top:0; border:1px solid #fff; color:#fff; background:#333; line-height: 30px; width: 140px; text-align: center;}
+#skip a {position: absolute; left: 0; top:-35px; border:1px solid #fff; color:#fff; background:#333; line-height: 30px; width: 140px; text-align: center;}
+#skip a:active,
+#skip a:focus {top 0;}
 
 /*레이아웃*/
 #wrap {width: 100%;}
